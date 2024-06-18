@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="netflixstyle.css">
+    <style>
+        .sign{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/headerimage.png);
+            background-size: cover;
+            background-position: center;
+            padding: 10px 8%;
+            position: relative;
+        }
+        
+        form{
+            border: 1px solid gray;
+            border-radius: 5px;
+            background: black;
+            max-width: fit-content;
+            margin-top: 30px;
+            text-align: left;
+            padding: 5px;
+            margin: 10px;
+        }
+        form #tag2{
+            background: black;
+            opacity: 0.5;
+            border: 1px solid white;
+            color: white;
+            border-radius: 4px;
+            padding: 10px;
+            padding-right: 80px;
+        }
+        form #tag3{
+            background: black;
+            opacity: 0.5;
+            border: 1px solid white;
+            color: white;
+            border-radius: 4px;
+            padding: 10px;
+            padding-right: 80px;
+            margin-top: 10px;
+        }
+        form #tag4{
+            background: orange;
+            border: 1px solid orange;
+            color: white;
+            border-radius: 4px;
+            padding: 10px 103px 10px 103px;
+            margin-top: 10px;
+            text-align: center;
+            font-weight: 700;
+        }
+         
+         
+    </style>
+</head>
+<body>
+    <div class="sign">
+        <nav>
+            <img src="\logo.png" class="logo">
+        </nav>
+        <div class="signin-page">
+            <center>
+                <form>
+                    <h1 id="tag1">Sign In</h1>
+                    <input type="email" id="tag2" placeholder="Email or Mobile Number"><br>
+                    <input type="password" id="tag3" placeholder="Password"><br>
+                    <button id="tag4">Sign In</button>
+                    <h4 id="tag5">OR</h4>
+                    <button>Use a Sign In Code</button>
+                    <h4 id="tag6">Forgot Password ?</h4>
+                    <input type="checkbox" id="tag7">Remember Me
+                    <h4 id="tag8">New to Netflix ?</h4>
+                    <a href="#" id="tag9">Sign Up now</a>
+                    <p id="tag10">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+                    <a href="#" id="tag11">Learn More.</a>
+        
+                </form>
+            </center>
+        </div>
+    </div>
+   
+    
+</body>
+</html>
